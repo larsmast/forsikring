@@ -19,16 +19,13 @@ import org.larsmarius.forsikring.fagsystem.Kunde;
 @Consumes(MediaType.APPLICATION_JSON)
 
 public class forespørsel {
-
 	//Initierer falsk database
 	Database db = new Database();
-	
 	/*
 	 * @POST aksepterer forspørsler på formen {	"navn": "**********",	
 	 * 											"telefonNummer": "************";
 	 * 											"personNummer": "******"}														
 	 */
-	
 	@POST
 	@Produces(MediaType.APPLICATION_JSON)
 	public Response behandling(Kunde kunde) {
