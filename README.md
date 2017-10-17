@@ -9,6 +9,7 @@ personNummer er en kritisk verdi for at tjenesten skal fungere og forspørselen 
 "navn":"Ole Olsen",
 "personNummer":"2002198022349"
 }
+@POST --> /forsikring/webapi/forespoersel
 
 Det er opprettet en lokal database som inneholder 2 kunder, som hver har 2 eksisterende avtaler. På denne måten kan tjenesten testes mht håndtering av kunder og flere avtaler. Antallet avtaler kommer til uttrykk gjennom avtaleId som genereres når forespørselen fra en person som allerede eksisterer i systemet.
 
