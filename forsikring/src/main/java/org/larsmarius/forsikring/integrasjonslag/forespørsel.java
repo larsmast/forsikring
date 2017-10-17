@@ -21,7 +21,9 @@ import org.larsmarius.forsikring.fagsystem.Kunde;
 public class forespørsel {
 	//Initierer falsk database
 	Database db = new Database();
-	/*
+
+	
+	/* Fjernet @GET metoder
 	 * @POST aksepterer forspørsler på formen {	"navn": "**********",	
 	 * 											"telefonNummer": "************";
 	 * 											"personNummer": "******"}														
